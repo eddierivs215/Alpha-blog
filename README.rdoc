@@ -1,9 +1,2 @@
-1) create a new Rails application and call it alpha-blog
-
-2) Ensure you can run the serve and preview the application
-
-3) Create a pages_controller
-
-4) Ensure you have appropriate routes
-
-5) Create a home page, an about page, use code done for homework
+This is a repository of the ALpha-blog app for the Complete Ruby on Rails 
+Developer course.
