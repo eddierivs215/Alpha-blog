@@ -1,43 +1,7 @@
 <!DOCTYPE html>
 <html="en-US">
 <head>
-<style>
-#header{
-    color:black;
-    font-family: courier;
-    text-align: center;
-    border: solid black;
-
-}
-#menu{
-    line-height:30px;
-    background-color:#eeeeee;
-    height:315px;
-    width:10%;
-    float:left;
-}
-#footer{
-     background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px;
-}
-#image{
-    width:900px;
-    height:350px;
-    float:left;
-    
-    
-}
-#selection{
-    text-align:left;
-    float:left;
-}
-
-
-
-</style>
+<link rel="stylesheet" type="css" href="application.css">
 <title>This is the 'About Us' for Alpha-Blog</title>
 <body>
 
@@ -48,13 +12,7 @@
 <div id="menu">
     <%= link_to 'Home', root_path %><br>
     <%= link_to 'About', about_path %><br>
-    <span style="text-decoration:underline"></pan>Some Link</span>
-</div>
-
-
-<div id="image">
-    <img src="http://covermyfb.com/media/covers/thumb/9176-wolf-on-mountaintop.jpg" 
-     alt="Picture of Wolf">
+    <%= link_to 'Articles', articles_path %>
 </div>
 
 <div id="selection">
