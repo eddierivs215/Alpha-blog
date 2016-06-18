@@ -4,28 +4,14 @@
 
 <head>
 
-<title>This is a homework assignment called Alpha-Blog</title>
+<title>This is the home page for Alpha-Blog</title>
 <body>
 
-<div id="header">
-    <h1>Welcome to Alpha-Blog!</h1>
+<div class="center jumbotron">
+  <h1>Welcome to Alpha Blog!</h1>
+  <p><%= link_to "Sign up now", "#", class: "btn btn-primary btn-lg" %></p>
 </div>
 
-<div id="menu">
-    <%= link_to 'Home', root_path %><br>
-    <%= link_to 'About', about_path %><br>
-    <%= link_to 'Articles', articles_path %><br>
-</div>
-
-
-<div id="image">
-    <img src="http://covermyfb.com/media/covers/thumb/9176-wolf-on-mountaintop.jpg" 
-     alt="Picture of Wolf">
-</div>
-
-<div id="footer">
-    Copyright © rails-section-eddieriv.c9users.io
-</div>
 
 </body>
 </head>
