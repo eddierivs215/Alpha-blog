@@ -32,10 +32,17 @@ $navbar-default-bg: #000000;
     font-weight: bold;
 }
 
-.btn-xlg {
+.btn-xlarge {
+    padding: 18px 28px;
     font-size: 1.7em;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
     background-color: black;
 }
+    
+    
 
 footer{
     margin-top: 45px;
