@@ -42,7 +42,14 @@ $navbar-default-bg: #000000;
     background-color: black;
 }
     
-    
+.articles_action {
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}    
+
+.description {
+    margin-top: 0;
+}
 
 footer{
     margin-top: 45px;
@@ -68,6 +75,9 @@ footer ul li{
     float: left;
     margin-let: 15px;
 }
+
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
