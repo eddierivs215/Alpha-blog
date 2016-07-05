@@ -1,5 +1,11 @@
 $navbar-default-bg: #000000;
 
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+
 #logo {
     float: left;
     font-size: 1.7em;
@@ -73,6 +79,16 @@ $navbar-default-bg: #000000;
     padding-left: 0;
 }
 
+.badge{
+    background-color: #CEF6F5;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.input_checkbox{
+  width: auto !important;
+}
 
 footer{
     margin-top: 45px;
@@ -100,7 +116,4 @@ footer ul li{
 }
 
 
-
-@import "bootstrap-sprockets";
-@import "bootstrap";
 
